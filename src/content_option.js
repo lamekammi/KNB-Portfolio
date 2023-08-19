@@ -1,75 +1,74 @@
-const logotext = "{Initials Here}";
+const logotext = "KNB";
 const meta = {
-    title: "{Your name}",
-    description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
+    title: "Kammi Bobbitt",
+    description: "I'm Kammi Bobbitt, a Full-Stack Software Engineer.",
 };
 
 const introdata = {
-    title: "Hi, I'm {Your Name}",
+    title: "Hi, I'm Kammi Bobbitt",
     animated: {
-        first: "Technologist",
-        second: "Visionary",
-        third: "Ethical Hacker",
-        fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
+        first: "Software Engineer",
+        second: "UI/UX Designer",
+        third: "Graphic Designer",
+        fourth: "Artist",
+        fifth: "Gamer",
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
-    your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    description: "Full-Stack Software Engineer with a history of strong communication, problem solving skills, teamwork, time management and a passion for learning how things work, as well as turning solid ideas into a finished product.",
+    your_img_url: "https://i.imgur.com/JNB5tvT.png",
 };
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    aboutme: "Full-Stack Software Engineer with a history of strong communication, problem solving skills, teamwork, time management and a passion for learning how things work, as well as turning solid ideas into a finished product.",
 };
 const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
-        date: "2023",
+        jobtitle: "Software Engineering Teaching Assistant",
+        where: "General Assembly",
+        date: "2022-2023",
     },
     {
-        jobtitle: "Example 2",
-        where: "Micosoft",
-        date: "2022",
+        jobtitle: "Freelance Artist",
+        where: "Self Employeed",
+        date: "2021-Current",
     },
     {
-        jobtitle: "Example 3",
-        where: "Meta",
-        date: "2021",
+        jobtitle: "Order Fullfillment Associate",
+        where: "Walmart",
+        date: "2020-2022",
     },
 ];
 
 const skills = [{
+        name: "JavaScript",
+    },
+    
+    {
+        name: "HTML",
+    },
+    
+    {
+        name: "CSS",
+    },
+    
+    {
         name: "Python",
     },
-    
+
     {
-        name: "C",
-    },
-    
-    {
-        name: "Java",
-    },
-    
-    {
-        name: "Bash",
+        name: "Node.js",
     },
 
     {
-        name: "Powershell",
+        name: "Express.js",
     },
 
     {
-        name: "Reverse Engineering",
+        name: "Django",
     },
 
     {
-        name: "Web-Exploitation",
-    },
-
-    {
-        name: "Network Exploitation",
+        name: "React",
     },
 ];
 
@@ -137,18 +136,18 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "test@test.com",
+    YOUR_EMAIL: "kameronnb@gmail.com",
     description: "Looking forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "SERVICE_ID",
-    YOUR_TEMPLATE_ID: "TEMPLATE_ID",
-    YOUR_USER_ID: "USER_ID (PUBLIC_KEY)",
+    YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
+    YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
+    YOUR_USER_ID: process.env.YOUR_USER_ID,
 };
 
 const socialprofils = {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    github: "https://github.com/lamekammi",
+    linkedin: "https://www.linkedin.com/in/kammibobbitt/",
 };
 export {
     meta,
