@@ -15,7 +15,7 @@ const introdata = {
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
     description: "Full-Stack Software Engineer with a history of strong communication, problem solving skills, teamwork, time management and a passion for learning how things work, as well as turning solid ideas into a finished product.",
-    your_img_url: "https://i.imgur.com/JNB5tvT.png",
+    your_img_url: "https://i.imgur.com/NRLjDr2.png",
 };
 
 const dataabout = {
