@@ -1,3 +1,11 @@
+import hourProdLogo from './assets/images/14hoursSS.png';
+import slotMachineGame from './assets/images/smg.png';
+import tenantUplink from './assets/images/tenantuplink.png';
+import ivyLeavesVideo from './assets/images/ivyLeaves.mp4';
+import ivyLeavesSS from  './assets/images/ivyLeavesSS.png';
+import cTubeVideo from './assets/images/cTube.mp4';
+import cTubeSS from './assets/images/cTubeSS.png';
+
 const logotext = "KNB";
 const meta = {
     title: "Kammi Bobbitt",
@@ -23,14 +31,19 @@ const dataabout = {
     aboutme: "Full-Stack Software Engineer with a history of strong communication, problem solving skills, teamwork, time management and a passion for learning how things work, as well as turning solid ideas into a finished product.",
 };
 const worktimeline = [{
-        jobtitle: "Software Engineering Teaching Assistant",
-        where: "General Assembly",
-        date: "2022-2023",
+        jobtitle: "Freelance Software Engineer",
+        where: "Self Employeed",
+        date: "2023-Current",
     },
     {
         jobtitle: "Freelance Artist",
         where: "Self Employeed",
         date: "2021-Current",
+    },
+    {
+        jobtitle: "Software Engineering Teaching Assistant",
+        where: "General Assembly",
+        date: "2022-2023",
     },
     {
         jobtitle: "Order Fullfillment Associate",
@@ -70,69 +83,42 @@ const skills = [{
     {
         name: "React",
     },
+
+    {
+        name: "Ruby",
+    },
+
+    {
+        name: "Tailwind",
+    },
 ];
 
 const dataportfolio = [{
-        img: "https://i.imgur.com/EX1vGHQ.png",
-        description: "JavaScript Slot Machine Game.",
+        img: hourProdLogo,
+        description: "Small indie gaming company",
+        link: "https://14hoursproductions.com/",
+    },
+    {
+        img: tenantUplink,
+        description: "Worked collaboratively with a team of engineers to create an application allowing the interfacing of various tenant's text messages with a support team's slack project",
+        link: "https://github.com/lamekammi/tenant-uplink",
+    },
+    {
+        img: cTubeSS,
+        description: "A data research site to see what Travel Videos caught users eyes",
+        link: cTubeVideo,
+    },
+    {
+        img: slotMachineGame,
+        description: "JavaScript Slot Machine Game - My first project!",
         link: "https://lamekammi.github.io/slot-machine-game/",
     },
     {
-        img: "https://i.imgur.com/g7voz3e.png",
-        description: "Express and EJS site to track Manga/Books.",
-        link: "https://github.com/lamekammi/manga-tracker",
-    }//,
-    //{
-      //  img: "https://picsum.photos/400/?grayscale",
-     //   description: "The wisdom of life consists in the elimination of non-essentials.",
-     //   link: "#",
-   // },
-    //{
-       // img: "https://picsum.photos/400/600/?grayscale",
-       // description: "The wisdom of life consists in the elimination of non-essentials.",
-       // link: "#",
-   // },
-    //{
-      //  img: "https://picsum.photos/400/300/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-   // },
-   // {
-       // img: "https://picsum.photos/400/700/?grayscale",
-     //   description: "The wisdom of life consists in the elimination of non-essentials.",
-     //   link: "#",
-   // },
-
-   // {
-      //  img: "https://picsum.photos/400/600/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-    //},
-    //{
-     //   img: "https://picsum.photos/400/300/?grayscale",
-     //   description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-   //},
-   // {
-      //  img: "https://picsum.photos/400/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-   // },
-   // {
-      //  img: "https://picsum.photos/400/550/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-   // },
-   // {
-      //  img: "https://picsum.photos/400/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-       // link: "#",
-    //},
-    //{
-      //  img: "https://picsum.photos/400/700/?grayscale",
-      //  description: "The wisdom of life consists in the elimination of non-essentials.",
-      //  link: "#",
-    //},
+        img: ivyLeavesSS,
+        description: "A data research site to see how much someone would pay for a tutor based on their pronouns, image, and test scores",
+        link: ivyLeavesVideo,
+    },
+    
 ];
 
 const contactConfig = {
